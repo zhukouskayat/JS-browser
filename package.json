@@ -1,0 +1,26 @@
+{
+  "name": "js-browser",
+  "version": "1.0.0",
+  "description": "Homework JavaScript in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhukouskayat/JS-browser.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhukouskayat/JS-browser/issues"
+  },
+  "homepage": "https://github.com/zhukouskayat/JS-browser#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "2.1.2"
+  }
+}
