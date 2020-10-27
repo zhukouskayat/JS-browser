@@ -1,9 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable import/extensions */
 
-import { browserTree, nodesHierarchy } from "./tree.js"
-
-function renderTree(tree) {
+export function renderTree(tree) {
   if (tree.length === 0) return null;
 
   const rootUl = document.createElement("ul");
@@ -37,13 +35,3 @@ function renderTree(tree) {
 
 //   return rootUlElement;
 // }
-
-
-export function renderPage() {
-  const browserTreeList = renderTree([browserTree]);
-  const nodesHierarchyList = renderTree([nodesHierarchy]);
-
-  const rootDiv = document.getElementById("root");
-  if (browserTreeList !== null)rootDiv.append(browserTreeList);
-  if (nodesHierarchyList !== null)rootDiv.append(nodesHierarchyList);
-};
